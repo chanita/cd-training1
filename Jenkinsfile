@@ -11,7 +11,8 @@ pipeline {
                     
                 }    
             }
-        }
+   
+
         stage('install node packages') {
             steps {
                 nodejs('NodeJS 18.3.0') {
