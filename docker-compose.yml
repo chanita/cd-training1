@@ -20,4 +20,4 @@ services:
       MYSQL_ROOT_PASSWORD: secret
       MYSQL_DATABASE: todos
 volumes:
-  todo-mysql-data:
+  todo-mysql-data: 
